@@ -1,0 +1,5 @@
+spring.application.name: springboot-client
+server.port: 8999
+management.security.enabled: false
+spring.data.elasticsearch.cluster-nodes: dev.ityx.de:9300
+spring.data.elasticsearch.cluster-name: devcluster

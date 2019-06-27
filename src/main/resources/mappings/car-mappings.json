@@ -1,0 +1,25 @@
+{
+	"car": {
+		"_all": {
+			"enabled": false
+		},
+		"properties": {
+			"id": {
+				"index": "not_analyzed",
+				"type": "string"
+			},
+			"number_of_tyres": {
+				"index": "not_analyzed",
+				"type": "long"
+			},
+			"type": {
+				"index": "not_analyzed",
+				"type": "string"
+			},
+			"name": {
+				"index": "not_analyzed",
+				"type": "string"
+			}
+		}
+	}
+}
